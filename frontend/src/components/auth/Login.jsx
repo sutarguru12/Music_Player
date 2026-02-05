@@ -107,6 +107,7 @@ const login = () => {
               label={"Email address"}
               placeholder="JohnDoe@gmail.com"
               type="email"
+              autoComplete="email"
             />
 
             <Input
@@ -115,6 +116,7 @@ const login = () => {
               label="Password"
               placeholder={"minimum 6 characters"}
               type="password"
+              autoComplete="current-password"
             />
           </>
         )}

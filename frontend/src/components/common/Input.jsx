@@ -19,6 +19,14 @@ const Input = ({ value, onChange, label, placeholder, type }) => {
           placeholder={placeholder}
           onChange={(e) => onChange(e)}
           className="input-field"
+          value={value}
+          autoComplete={
+            type === "password"
+              ? "current-password"
+              : type === "email"
+                ? "email"
+                : "on"
+          }
         />
         {type === "password" && (
           <>
