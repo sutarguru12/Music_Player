@@ -1,6 +1,6 @@
 import React from "react";
 import "../../css/songs/SongGrid.css";
-import SongCard from "./songCard";
+import SongCard from "./SongCard";
 
 const SongGrid = ({ songs, onSelectFavourite }) => {
   if (!songs || songs.length === 0) {
