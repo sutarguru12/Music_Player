@@ -10,7 +10,7 @@ import {
   setUser,
 } from "../../redux/slices/authSlice";
 import { closeAuthModal, switchAuthMode } from "../../redux/slices/uiSlice";
-import "../../css/auth/login.css";
+import "../../css/auth/Login.css";
 
 const login = () => {
   const [email, setEmail] = useState("");
