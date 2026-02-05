@@ -16,7 +16,8 @@ connectDB();
 
 app.use(
   cors({
-    origin: true,
+    origin:
+      "https://music-player-mzveg9tij-gurus-projects-614f14fe.vercel.app/",
     credentials: true,
   }),
 );
