@@ -1,5 +1,5 @@
 import React, { Children } from "react";
-import "../../css/common/Modal.css";
+import "../../css/common/temp.css";
 
 const Modal = ({ children, onClose }) => {
   return (
