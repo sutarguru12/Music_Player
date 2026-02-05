@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { CiSearch } from "react-icons/ci";
-import "../../css/search/Searchbar.css";
+import "../../css/search/SearchBar.css";
 const SearchBar = ({ setSearchSongs }) => {
   const [query, setQuery] = useState("");
   const [loading, setLoading] = useState(false);
