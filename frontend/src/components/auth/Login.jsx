@@ -64,7 +64,6 @@ const login = () => {
 
       dispatch(closeAuthModal());
 
-      console.log(data);
       console.log("Login successfull");
     } catch (error) {
       const serverMessage =
